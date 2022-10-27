@@ -1,0 +1,15 @@
+body {
+    color: azure;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #f9b384;
+    border-width: 5px;
+    width: 15%;
+}
+a:link{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #b0afe8;
+}
