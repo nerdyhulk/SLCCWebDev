@@ -1,5 +1,9 @@
 body {
     color: azure;
+    background-image: url('/SLCCWebDev/Portfolio\ Project/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 hr {
     border-style: none;
