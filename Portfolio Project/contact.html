@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Contact Me!!!</title>
+        <link rel="icon" href="https://img.icons8.com/ios/344/decentralized-network.png">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
@@ -15,22 +16,39 @@
             <a href="portfolio.html">Portfolio</a>
             
         </nav>
+        <hr>
     </Header>
     <body>
-        <<body>
-            <h1>My Contact details</h1>
+        <body>
+            <h1>My Contact Details</h1>
             <p>American Fork, UT</p>
             <P>My Email: michael.a.moore90@gmail.com</P>
             <a href="https://www.linkedin.com/in/michael-moore-2b148a79/">LinkedIn</a>
             <hr>
         <br>
             <form class="" action="mailto:michael.a.moore90@gmial.com" method="post" enctype="text/plain">
-            <label>Your Name:</label>
-            <input type="text" name="yourName" value=""><br>
-            <label>Your Email:</label>
-            <input type="email" name="yourEmail"><br>
-            <label>Your Message:</label><br>
-            <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+            <label for="name">Your Name:</label>
+                <input type="text" name="yourName" value="Mike"><br>
+            <label for="phone">Your Phone #:</label>
+                <input type="text" name="yourPhoneNum" value=""><br>
+            <label for="email">Your Email:</label>
+                <input type="email" name="yourEmail"><br>
+            
+            <br>
+            <label for="message">Your Message:</label><br>
+                <textarea id="message" name="yourMessage" rows="10" cols="50" maxlength="350">Enter your message/request here.</textarea>
+            <p>May we contact you?</p>
+            <input type="radio" name="contact-back" id="yes" value="Yes">Yes
+            <input type="radio" name="contact-back" id="no" value="No">No<br>
+            <br>
+            <p>Best Contact Method To Reach you:</p>
+            <input type="checkbox" name="contact-phone" id="contactCall" value="Phone">
+                <label for="contactphone">Call</label>
+            <input type="checkbox" name="contact-text" id="contactText" value="Call">
+                <label for="contactText">Text</label>
+            <input type="checkbox" name="contact-email" id="contactEmail" value="Text">
+                <label for="contactEmail">Email</label><br>
+            <br>
             <input type="submit" name=""><br>
             </form>
         </body>
