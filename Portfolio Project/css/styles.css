@@ -1,3 +1,4 @@
+/******************************************TAG SELECTORS***********************************************/
 body {
     color: azure;
     background-image: url('../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpeg');
@@ -137,5 +138,15 @@ nav{
 }
 ul{
     list-style-position: inside;
+}
+/******************************************CLASS SELECTORS***********************************************/
 
+.workExperience {
+    border: none;
+}
+.weTableHead {
+    border: none;
+}
+.topnavmenu {
+    text-align: center;
 }
