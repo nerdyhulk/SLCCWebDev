@@ -38,16 +38,18 @@
             <label for="message">Your Message:</label><br>
                 <textarea id="message" name="yourMessage" rows="10" cols="50" maxlength="350">Enter your message/request here.</textarea>
             <p>May we contact you?</p>
-            <input type="radio" name="contact-back" id="yes" value="Yes">Yes
-            <input type="radio" name="contact-back" id="no" value="No">No<br>
+            <label for="yes">Yes</label> 
+                <input type="radio" name="contact-back" id="yes" value="Yes"><br>
+            <label for="no">No</label>    
+                <input type="radio" name="contact-back" id="no" value="No"><br>
             <br>
             <p>Best Contact Method To Reach you:</p>
-            <input type="checkbox" name="contact-phone" id="contactCall" value="Phone">
-                <label for="contactphone">Call</label>
-            <input type="checkbox" name="contact-text" id="contactText" value="Call">
-                <label for="contactText">Text</label>
-            <input type="checkbox" name="contact-email" id="contactEmail" value="Text">
-                <label for="contactEmail">Email</label><br>
+            <label for="call">Call</label>
+                <input type="checkbox" name="contact-phone" id="call" value="Phone"> <br>
+            <label for="contactText">Text</label>
+                <input type="checkbox" name="contact-text" id="contactText" value="Call"> <br>
+            <label for="contactEmail">Email</label>    
+                <input type="checkbox" name="contact-email" id="contactEmail" value="Text"> <br>
             <br>
             <input type="submit" name=""><br>
             </form>
