@@ -12,7 +12,8 @@ hr {
     border-top-style: dotted;
     border-color: #FF5F1F;
     border-width: 5px;
-    width: 15%;
+    height: 10px;
+    width: 10%;
 }
 a:link{
     text-decoration: underline;
