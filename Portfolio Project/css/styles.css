@@ -150,3 +150,10 @@ ul{
 .topnavmenu {
     text-align: center;
 }
+.headertable{
+    border: none;
+}
+.footer{
+    margin-left:auto;
+    margin-right:auto
+}
