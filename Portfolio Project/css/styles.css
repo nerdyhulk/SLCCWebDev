@@ -21,7 +21,7 @@ a:link{
     font-weight: bold;
     color: #ffffff;
 }
-p {
+p, h1, h2, h3, h4, h5, h6, label{
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
@@ -32,52 +32,8 @@ p {
         0.05em -0.05em black,
         0.05em 0.05em black;
 }
-h1 {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-    text-align: center;
-}
-h2 {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-}
-h3 {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-}
-h4 {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-}
-table{
+
+table, tr, td, th{
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -85,11 +41,7 @@ table{
     border-collapse: collapse;
     margin-left:auto;
     margin-right:auto;
-}
-thead{
-    border: 1px solid rgb(253, 253, 253);
-}
-tr {
+    padding: 5px;
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
@@ -100,17 +52,8 @@ tr {
         0.05em -0.05em black,
         0.05em 0.05em black;
 }
-td {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-}
+
+
 ul {
     text-shadow:
         0.05em 0 black,
@@ -122,23 +65,10 @@ ul {
         0.05em -0.05em black,
         0.05em 0.05em black;
 }
-label{
-    text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
-}
 nav{
     text-align: center;
 }
-ul{
-    list-style-position: inside;
-}
+
 /******************************************CLASS SELECTORS***********************************************/
 
 .workExperience {
@@ -150,10 +80,14 @@ ul{
 .topnavmenu {
     text-align: center;
 }
-.headertable{
+.headertable, .headerRow, .headerData{
     border: none;
 }
 .footer{
     margin-left:auto;
     margin-right:auto
+}
+.educationTable{
+    border: none;
+    padding: 50px;
 }

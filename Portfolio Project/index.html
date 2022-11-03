@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
 
 <html>
     <head>
+        <meta name="viewport" content="width=device-width">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Mike's Personal Site</title>
         <link rel="icon" href="https://img.icons8.com/ios/344/decentralized-network.png">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <header>
         <h1>Michael A. Moore</h1>
         <table class="headertable">
-            <tr>
-            <td><img src="images/headshotcircle.png" alt="Mikey Headshot" width="120"></img></td>
-            <td>
+            <tr class="headerRow">
+            <td class="headerData"><img src="images/headshotcircle.png" alt="Mikey Headshot" width="120"></td>
+            <td class="headerData">
                 <p><em>Developer in Training & <strong><a href="https://youtu.be/EIyixC9NsLI">Wicked IT Wizard</a></strong></em></p>
                 <p>Hello and Welcome to my Site! I am here to help you attain success with any and all IT/Web projects!!</p>
             </td>
@@ -45,8 +43,8 @@
     <br>
     <body>
         <br>
-        <hr />
-    <h3 id="workexperience"><u>Work Experience</u></h3>
+        <hr>
+        <h3 id="workexperience"><u>Work Experience</u></h3>
     <table class="workExperience">
         <thead class="weTableHead">
             <tr>
@@ -66,9 +64,11 @@
                 <td>Jr System Administrator</td>
                 <td><a href="https://www.GoReact.com">GoReact</a></td>
             </tr>
+            <tr>
                 <td>Mar '21  to Mar '22</td>
                 <td>Technical Support Engineer I</td>
                 <td><a href="https://www.mastercontrol.com">MasterControl</a></td>
+            </tr>
             <tr>
                 <td>Aug '20 to Mar '21</td>
                 <td>IT Support Associate II(L3 Position)</td>
@@ -106,37 +106,39 @@
             </tr>
         </tbody>
     </table>
-    <hr />       
+    <hr>       
     <h3 id="education">Education</h3>
-
-        <ul>
-        <li>
-        <st><a href="http://www.slcc.edu">Salt Lake Commmunity College</a></st> - <em>Expected Graduation Spring '23</em>
-        </li>
-        <ul>
-        <li>Major: Computer Science</li>
-        <li>Emphasis: Network, Cyber Security, Linux Administration, Web Development</li>
-        </ul>
-        </ul>
-
-        <ul>
-        <li>
-        <st><a href="http://swhs.swisd.net/">Southwest High School</a></st>, San Antonio, TX<em> Class of '09</em>
-        </li>
-        <ul>
-        <li>Distinquished Graduate - Top 2% of class</li>
-        <li>Completed 26 hours of College credit before graduation.</li>
-        </ul>
-    <hr />
-        </ul>
+    <table class="educationTable">
+        <th>School</th>
+        <th>Years</th>
+        <th>Major</th>
+        <th>GPA</th>
+        <th>Completed</th>
+        <tr>
+            <td>Southwest High School, San Antonio, TX</td>
+            <td>2005 to 2009</td>  
+            <td>HS Diploma w/26 college credits</td>
+            <td>3.85</td>
+            <td>&#9989;</td>
+        </tr>
+        <tr>
+            <td>Salt Lake Community College</td>
+            <td>2019 to Current</td>
+            <td>Computer Science and Information Systems</td>
+            <td>3.5</td>
+            <td>&#9203; Spring '23</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
         <h3 id="certifications"><u>Certifications</u></h3>
         <Table>
         <thead>
             <th>Badge</th>
             <th>Certification</th>
             <th>Earned From</th>
-            <th>Earned Date</th>
-            <th>Expiration Date</th>
+            <th>Earned</th>
+            <th>Expiration</th>
         </thead>
         <tr>
             <td><img src="images/MTA-Database_Fundamentals-600x600.png" alt="MTA DB BADGE" width="100" height="100"></td>
@@ -153,63 +155,64 @@
             <td>TBD</td>
 </Table>
 <p>To view all current Certification, please view through ></p><p><a href="https://www.credly.com/users/michael-moore.a7ceb02a/badges">Credly Credentials</a></p>
-<hr />
-<h3 id="skills"><u>Skills</u></h3>
+<hr>
+
     <table style="border:none">
+        <th colspan="2" id="skills">Skills</th>
         <tr>
-            <td>
-                <tr>
-                    <td>Windows Administration</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Mac Administration</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Linux Administration</td>
-                    <td>⭐⭐⭐⭐</td>
-                <tr>
-                    <td>Active Directory</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>PC Hardware Support</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Software Support</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Microsoft Office Administration</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Web Development(HTML/CSS)</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>GIT</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Scripting Languages(Python/Bash)</td>
-                    <td>⭐⭐⭐⭐</td>
-                </tr>  
-                <tr>
-                    <td>Impressing Myself with this</td>
-                    <td>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</td>
-                </tr>
+            <tr>
+                <td>Windows Administration</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Mac Administration</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Linux Administration</td>
+                <td>⭐⭐⭐⭐</td>
+            <tr>
+                <td>Active Directory</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>PC Hardware Support</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Software Support</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Microsoft Office Administration</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Web Development(HTML/CSS)</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>GIT</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Scripting Languages(Python/Bash)</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>  
+            <tr>
+                <td>Impressing Myself with this</td>
+                <td>⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</td>
+            </tr>
     </table>
-<hr />
+    <br>
+<hr>
 <h3 id="references">References</h3>
 <p>Please use the <a href="contact.html">Contact</a> page to request References. Thanks!</p><br>
-<hr />       
+<hr>       
 </body>
 
 <footer>
