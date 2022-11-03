@@ -87,7 +87,7 @@ nav{
     margin-left:auto;
     margin-right:auto
 }
-.educationTable{
+.educationTable, .skillsTable{
     border: none;
     padding: 50px;
 }
