@@ -1,7 +1,7 @@
 /******************************************TAG SELECTORS***********************************************/
 body {
     color: azure;
-    background-image: url('../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpeg');
+    background-image: url('../images/daniel-josef-AMssSjUaTY4-unsplash.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,7 +11,7 @@ body {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #FF5F1F;
+    border-color: #DDDDDD;
     border-width: 5px;
     height: 10px;
     width: 10%;
@@ -19,9 +19,14 @@ hr {
 a:link{
     text-decoration: underline;
     font-weight: bold;
-    color: #ffffff;
+    color: #ffffffcd;
 }
-p, h1, h2, h3, h4, h5, h6, label{
+/*use C060A1 for click links*/
+a:visited{
+    color: #C060A1;
+}
+
+p, h1, h2, h3, h4, h5, h6, label, a{
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
@@ -37,7 +42,7 @@ table, tr, td, th{
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    border: 1px solid rgb(253, 253, 253);
+    border: 1px solid #DDDDDD;
     border-collapse: collapse;
     margin-left:auto;
     margin-right:auto;
@@ -90,4 +95,11 @@ nav{
 .educationTable, .skillsTable{
     border: none;
     padding: 50px;
+}
+
+/******************************************TAG SELECTORS***********************************************/
+
+#nameplate {
+    color: #F05454;
+    font-size: 50px;
 }
