@@ -74,6 +74,10 @@ nav{
     text-align: center;
 }
 
+image {
+    margin-top: 10px;
+}
+
 /******************************************CLASS SELECTORS***********************************************/
 
 .workExperience {
@@ -95,6 +99,10 @@ nav{
 .educationTable, .skillsTable{
     border: none;
     padding: 50px;
+}
+
+.images{
+    margin: 10px;
 }
 
 /******************************************TAG SELECTORS***********************************************/
