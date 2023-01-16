@@ -5,7 +5,7 @@ Starting October 2023, I will be embarking on a Web Development project building
 Classes:
 
 * [X] HTML/GIT
-* [ ] CSS
+* [X] CSS
 * [ ] JavaScript
 * [ ] PHP/MySQL
 * [ ] WordPress
