@@ -11,4 +11,4 @@ element.innerHTML = 'This text has been modified using Javascript';
 
 var color = document.getElementById('test2');
 color.style.backgroundColor = 'blue';
-color.innerHTML = user.firstName + ' ' + user.lastName;
+color.innerHTML = user.firstName + ' ' + user.lastName + " is the best man for the job.";
