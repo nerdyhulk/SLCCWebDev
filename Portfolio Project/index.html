@@ -30,10 +30,25 @@
             <script>
                 let person = prompt("What is your name?")
 
-                if (person !=null) {
-                    alert("Hi " + person + "! Thank you for reviewing my resume site today!");
+                function getTime(){
+                    const t = new Date();
+                    var hour = t.getHours()
+                    if (hour <= 12) {
+                        time = 'Morning'
+                    }else if (hour >= 12 && hour <= 17){
+                        time = 'Afternoon'
+                    }else{
+                        time = 'Evening'
+                    } 
                 }
-                alert
+
+                if (person != null) {
+                    getTime()
+                    alert("Good "+ time+ " " + person + "! Thank you for reviewing my resume site today!");
+                } else {
+                    alert("fine, be that way ya jerk.");
+                }
+                
             </script>
             <section id="aboutMe">
                 <div class="image">
