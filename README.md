@@ -6,7 +6,7 @@ Classes:
 
 * [X] HTML/GIT
 * [X] CSS
-* [ ] JavaScript
+* [X] JavaScript
 * [ ] PHP/MySQL
 * [ ] WordPress
 * [ ] Capstone I
